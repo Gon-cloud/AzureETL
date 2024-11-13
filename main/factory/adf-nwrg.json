@@ -1,0 +1,9 @@
+{
+	"name": "adf-nwrg",
+	"location": "spaincentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cfd21b70-b2d2-4905-b9f6-5090f80249c2",
+		"tenantId": "eeb03e6f-2b0f-405e-aeba-99e6dd488d87"
+	}
+}
