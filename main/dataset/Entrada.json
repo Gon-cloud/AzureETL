@@ -1,0 +1,23 @@
+{
+	"name": "Entrada",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageEntrada",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "heart.csv",
+				"container": "contenedor-entrada"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
